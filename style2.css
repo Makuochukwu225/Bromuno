@@ -140,15 +140,21 @@ ul {
     border-style: solid;
     border-color: inherit;
     display: flex;
+    max-height: 100%;
     flex-direction: column;
     flex-grow: 2;
     background-color: #E7D38C;
-    overflow: auto;
+    overflow-x: auto;
     width: 50%;
    
   
     
 }
+/* .roadmap .quater{
+    min-width: 100%;
+    height: 100%;
+    line-height: 110px;
+} */
 
 .quaters-frame {
     /* position: absolute; */
